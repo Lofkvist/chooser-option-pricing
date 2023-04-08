@@ -1,9 +1,9 @@
 # Pricing of a chooser option 
-Theese Matlab scripts implements a solver for pricing a simple chooser option. The price of the underlying asset is simulated using the Black-Scholes model
+These MATLAB scripts implements a solver for pricing a simple chooser option. The price of the underlying asset is simulated using the Black-Scholes model
 
 $$\frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2S^2 \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0$$
 
-A simple chooser option gives the purchaser the right to choose at time $t$ whether the option should be a European call or put option with strike price $K$ and expiration time $T > t$. The script delta_greek.m calculates the quantity $\Delta = \partial V/\partial S, which shows the rate of change of the theoretical option with respect to change in the underlying asset
+A simple chooser option gives the buyer the right to choose at time $t$ whether the option should be a European call or put option with strike price $K$ and expiration time $T > t$. The script delta_greek.m calculates the quantity $\Delta = \partial V/\partial S, which shows the rate of change of the theoretical option with respect to change in the underlying asset
 
 ## Results
 ### The price of the chooser option compared to European call and put option:
